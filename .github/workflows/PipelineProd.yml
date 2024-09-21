@@ -13,7 +13,7 @@ jobs:
 
   deploy:
     runs-on: ubuntu-latest
-    environment: Dev
+    environment: Prod
     
     steps:
       - name: Print URL
