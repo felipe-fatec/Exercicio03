@@ -19,4 +19,4 @@ jobs:
       - name: Print URL
         run: echo "Teste ${{ vars.URL }}"
       - name: Print Senha
-        run: echo "Teste ${{secrets.SENHA}}"
+        run: echo "Teste ${{secrets.senha}}"
