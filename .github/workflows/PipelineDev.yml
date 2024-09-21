@@ -5,7 +5,7 @@ name: Pipeline Dev
 # Controls when the workflow will run
 on:
   pull_request:
-    branches: [ "Dev" ]
+    branches: [ "DEV" ]
 
   workflow_dispatch:
 
